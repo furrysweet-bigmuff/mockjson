@@ -1,3 +1,197 @@
 {
-  'test': '1111'
+  'user': {
+    id: 'xzcvasd1',
+    name: 'Denys',
+    email: 'greyhotel2@gmail.com',
+    password: '000000',
+    userCurrency: 'UAH',
+    savings: [],
+    currentBudgetId: '12309123',
+  },
+  'budgets': [
+    {
+      id: '999', 
+      name: 'August Budget',
+      dateStart: '01.08.2022',
+      dateEnd: '10.08.2022',
+      amount: '15000',
+      plannedExpenses: '5000',
+      totalSpend: '0',
+      amountOfDays: '10',
+      trackSpend: {
+        id: 'lkjoi9i',
+        budgetId: '999',
+        list: [
+          {
+            date: '01.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '02.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '03.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '04.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '05.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '06.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '07.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '08.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '09.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+          {
+            date: '10.08.2022',
+            totalDaySpend: '0',
+            list: []
+          },
+        ] 
+      }
+    },
+    {
+      id: '12309123', 
+      name: 'July Budget',
+      dateStart: '01.02.2022',
+      dateEnd: '03.02.2022',
+      amount: '70000',
+      plannedExpenses: '43500',
+      totalSpend: '48600',
+      amountOfDays: '3',
+      trackSpend: {
+        id: 'rec1JZlfCIBOPdcT2',
+        budgetId: '12309123',
+        list: [
+          {
+            date: '01.02.2022',
+            totalDaySpend: 1500,
+            list: [
+              {
+                id: '123',
+                itemName: '0000Сільпо',
+                category: 'Продукти',
+                amount: '1000',
+                currency: 'UAH',
+              },
+              {
+                id: '124',
+                itemName: '0000Black Honey',
+                category: 'Daily',
+                amount: '100',
+                currency: 'UAH',
+              },
+              {
+                id: '125',
+                itemName: '000Бензин',
+                category: 'Daily',
+                amount: '400',
+                currency: 'UAH',
+              },
+            ]
+          },
+          {
+            date: '02.02.2022',
+            totalDaySpend: 1200,
+            list: [
+              {
+                id: '126',
+                itemName: '11111Сільпо',
+                category: 'Продукти',
+                amount: '100',
+                currency: 'UAH',
+              },
+              {
+                id: '127',
+                itemName: '1111Dominos',
+                category: 'Ресторани',
+                amount: '1000',
+                currency: 'UAH',
+              },
+              {
+                id: '128',
+                itemName: '1111Комиссия',
+                category: 'Daily',
+                amount: '100',
+                currency: 'UAH',
+              },
+            ]
+          },
+          {
+            date: '03.02.2022',
+            totalDaySpend: 2400,
+            list: [
+              {
+                id: '129',
+                itemName: '22222Сільпо',
+                category: 'Продукти',
+                amount: '100',
+                currency: 'UAH',
+              },
+              {
+                id: '130',
+                itemName: '2222Dominos',
+                category: 'Ресторани',
+                amount: '1000',
+                currency: 'UAH',
+              },
+              {
+                id: '131',
+                itemName: '2222Комиссия',
+                category: 'Daily',
+                amount: '100',
+                currency: 'UAH',
+              },
+              {
+                id: '132',
+                itemName: '2222Сільпо',
+                category: 'Продукти',
+                amount: '100',
+                currency: 'UAH',
+              },
+              {
+                id: '133',
+                itemName: '2222Dominos',
+                category: 'Ресторани',
+                amount: '1000',
+                currency: 'UAH',
+              },
+              {
+                id: '134',
+                itemName: '2222Комиссия',
+                category: 'Daily',
+                amount: '100',
+                currency: 'UAH',
+              },
+            ]
+          },
+        ] 
+      }
+    },
+  ],
 }
